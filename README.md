@@ -52,11 +52,13 @@ Copy the output and save as CSV file to open in Excel or Sheets.
 
 Eg output for check_cw_StatusCheckFailed:
 
+```
 client-a
 i-07243XXXXXXXXXd61,web-production-asd
 i-07aXXXXXXXXXXXX3f,prod.asd.com
 i-08aXXXXXXXXXXXXd0,client.asd-production.com
 i-0a1XXXXXXXXXXXXf0,client.asd-stage.com
+```
 
 # change_vflow_log
 
