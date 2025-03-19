@@ -57,3 +57,9 @@ i-07243XXXXXXXXXd61,web-production-asd
 i-07aXXXXXXXXXXXX3f,prod.asd.com
 i-08aXXXXXXXXXXXXd0,client.asd-production.com
 i-0a1XXXXXXXXXXXXf0,client.asd-stage.com
+
+# change_vflow_log
+
+The script will change the VPC flow log retention to 7 days for all AWS profiles in .aws/config file. This only applies to logs stored in CloudWatch. Logs destination as S3 won't be affected. Copy the output to a CSV file and open the file for valuation.
+
+You can also use it to display current retention period by commenting out the required lines.
